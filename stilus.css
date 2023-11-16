@@ -1,0 +1,41 @@
+*{
+    margin: auto;
+}
+
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+nav li{
+    list-style-type: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: "h h h"
+                            "n n n"
+                            "as ar ar"
+                            "f f f";
+}
+
+header{
+    grid-template-areas: h;
+}
+
+nav{
+    grid-template-areas: n;
+}
+
+article{
+    grid-template-areas: ar;
+}
+
+aside{
+    grid-template-areas: ar;
+}
+
+footer{
+    grid-template-areas: f;
+}
