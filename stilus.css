@@ -1,7 +1,5 @@
 *{
     margin: auto;
-    background-color: rgb(44, 13, 73);
-    color: lavenderblush;
 }
 
 main{
@@ -43,6 +41,25 @@ nav a{
     color: lavenderblush;
 }
 
-#kivalaszt_egyes{
-    border: 1px dashed lavenderblush;
+.fajl_kivalaszt{
+    border: 1px dashed rgb(28, 49, 136);
+    width: 400px;
+    height: 500px;
+   
+}
+
+header, aside, nav, footer{
+    background-color: rgb(98, 203, 230);
+    color: lavenderblush;
+    width: 100%;
+    text-align: center;
+}
+
+aside{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+article{
+    color: rgb(0, 162, 255);
 }
