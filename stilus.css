@@ -45,11 +45,13 @@ nav a{
     border: 1px dashed rgb(28, 49, 136);
     width: 400px;
     height: 500px;
+    margin-top: 5%;
+    padding: 5%;
    
 }
 
 header, aside, nav, footer{
-    background-color: rgb(98, 203, 230);
+    background-color: rgb(86, 207, 223);
     color: lavenderblush;
     width: 100%;
     text-align: center;

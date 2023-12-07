@@ -3,16 +3,17 @@ class FajlKivalasztView{
     constructor(szuloElem){
         this.divElem = szuloElem
         this.#megjelenit();
+        this.fajlElem = this.divElem.children("last-child");
         //console.log(this)
         this.#fajlnev();
-        this.fajlElem = this.divElem.children("last-child");
+        
     }
 
     #megjelenit(){
+        //<label for="myfile">Itt kiválaszthatja a fájlt: </label>
         let txt = "";
         txt += `<div id="kivalaszt_egyes">
-        <label for="myfile">Itt kiválaszthatja a fájlt: </label>
-        <br>
+        <label for="myfile"></label>
         <input type="file" id="myfile" name="myfile">`
         txt+= "</div>"
         this.divElem.append(txt);
