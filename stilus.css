@@ -1,5 +1,7 @@
 *{
     margin: auto;
+    background-color: rgb(44, 13, 73);
+    color: lavenderblush;
 }
 
 main{
@@ -38,5 +40,9 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: lavenderblush;
+}
+
+#kivalaszt_egyes{
+    border: 1px dashed lavenderblush;
 }
