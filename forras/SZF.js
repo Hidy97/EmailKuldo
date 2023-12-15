@@ -1,0 +1,56 @@
+export const osztaly = {
+    "nevek": [
+        {
+            nev: "Családi Alexandra",
+            kod: "00522"
+        },
+        {
+            nev: "János",
+            kod: "00342"
+        },
+        {
+            nev: "Kis Pista",
+            kod: "00222"
+        },
+        {
+            nev: "Tóth Zoltán",
+            kod: "00436"
+        },
+        {
+            nev: "Dreilinger Vanessza Maja",
+            kod: "00513"
+        },
+        {
+            nev: "Végh Béla",
+            kod: "00669"
+        },
+        {
+            nev: "Kiss János",
+            kod: "00666"
+        },
+        {
+            nev: "Kovács István",
+            kod: "00345"
+        },
+        {
+            nev: "Szűcs Sándor",
+            kod: "00987"
+        },
+        {
+            nev: "Nagy Péter Pál",
+            kod: "00123"
+        },
+        {
+            nev: "Soós Kálmán",
+            kod: "00918"
+        },
+        {
+            nev: "Kelemen Istvánné",
+            kod: "00275"
+        },
+        {
+            nev: "ifj. Orsós Béla",
+            kod: "00382"
+        }
+    ]
+}

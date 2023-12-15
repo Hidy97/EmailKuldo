@@ -3,19 +3,17 @@ class FajlKivalasztView{
     constructor(szuloElem){
         this.divElem = szuloElem
         this.#megjelenit();
-        this.fajlElem = this.divElem.children("last-child");
+        //this.fajlElem = this.divElem.children("last-child");
         //console.log(this)
         this.#fajlnev();
         
     }
 
     #megjelenit(){
-        //<label for="myfile">Itt kiválaszthatja a fájlt: </label>
         let txt = "";
-        txt += `<div id="kivalaszt_egyes">
-        <label for="myfile"></label>
+        txt += `<span class="kivalaszt_egyes">
         <input type="file" id="myfile" name="myfile">`
-        txt+= "</div>"
+        txt+= "</span>"
         this.divElem.append(txt);
     }
 
@@ -37,11 +35,6 @@ class FajlKivalasztView{
             }
             $("#kiiras").text(kod)
         })
-    }
-
-    #esemenyTrigger(esemenynev){
-        const esemenyem = new CustomEvent(esemenynev, {detail: this});
-        window.dispatchEvent(esemenyem);
     }
 }
 

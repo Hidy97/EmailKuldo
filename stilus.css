@@ -41,15 +41,6 @@ nav a{
     color: lavenderblush;
 }
 
-.fajl_kivalaszt{
-    border: 1px dashed rgb(28, 49, 136);
-    width: 400px;
-    height: 500px;
-    margin-top: 5%;
-    padding: 5%;
-   
-}
-
 header, aside, nav, footer{
     background-color: rgb(86, 207, 223);
     color: lavenderblush;
@@ -64,4 +55,9 @@ aside{
 
 article{
     color: rgb(0, 162, 255);
+}
+
+button{
+    background-color: aliceblue;
+    border: none;
 }
